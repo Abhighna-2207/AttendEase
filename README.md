@@ -11,35 +11,35 @@ This is a Tkinter-based GUI application to calculate the attendance percentage f
 - Python 3.x
 - Tkinter library
 ### How to Run
-1. Make sure you have Python installed on your system. You can download it from python.org.
+1. Make sure you have Python installed on your system. You can download it from [python.org](python.org).
 
 2. Install Tkinter if it's not already installed. You can do this using the following command:
 ```
 pip install tk
 ```
-3. Save the provided code in a file named attendance_calculator.py.
+3. Save the provided code in a file named **attendance_calculator.py**.
 
 4. Run the script:
 ```
 python attendance_calculator.py
 ```
 ### Usage
-- Enter tomorrow's date: The date from which the calculation should start, in the format **YYYY-MM-DD**.
+- **Enter tomorrow's date**: The date from which the calculation should start, in the format **YYYY-MM-DD**.
 
-- Enter the semester end date: The date until which the calculation should be performed, in the format **YYYY-MM-DD**.
+- **Enter the semester end date**: The date until which the calculation should be performed, in the format **YYYY-MM-DD**.
 
-- Enter the number of classes attended for each subject: Enter the data as space-separated values (e.g.,** 15 15 18 23 20 25 22 6**).
+- **Enter the number of classes attended for each subject**: Enter the data as space-separated values (e.g.,**15 15 18 23 20 25 22 6**).
 
-- Enter the number of classes conducted for each subject: Enter the data as space-separated values (e.g., **22 21 22 26 22 28 24 7**).
+- **Enter the number of classes conducted for each subject**: Enter the data as space-separated values (e.g., **22 21 22 26 22 28 24 7**).
 
-- Enter the number of classes per each day of the week: Enter the data as space-separated values (e.g., **3 3 3 2 1 3**).
+- **Enter the number of classes per each day of the week**: Enter the data as space-separated values (e.g., **3 3 3 2 1 3**).
 
-- Enter the number of holidays per each week: Enter the data as space-separated values (e.g.,** 0 0 1 1 0 0**).
+- **Enter the number of holidays per each week**: Enter the data as space-separated values (e.g.,**0 0 1 1 0 0**).
 
-- Enter the flag for attendance criteria:
+- **Enter the flag for attendance criteria:**
     **1** for satisfactory attendance.
     **2** for condonation.
-- Click on the Calculate button to get the results.
+- Click on the **Calculate** button to get the results.
 
 ### Output
 The result section will display:
