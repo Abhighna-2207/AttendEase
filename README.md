@@ -1,4 +1,4 @@
-# Course_Attendance_Calci
+# AttendEase
 It uses Python Language
 
 This is a Tkinter-based GUI application to calculate the attendance percentage for students. The application helps to determine the number of classes a student can skip and the required attendance percentage based on the entered data.
